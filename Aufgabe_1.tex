@@ -1,4 +1,4 @@
-\documentclass[12pt, a4paper, onecolumn, oneside, toc=bibliographynumbered, liststotoc]{scrartcl} %Schriftgröße 11pt, DIN A4, 1 Spalte, einseitig bedruckt, Literaturverzeichnis in Inhaltsverzeichnis eintragen mit Nummerierung als Anhang
+\documentclass[12pt, a4paper, onecolumn, oneside, toc=bibliographynumbered, liststotoc]{scrartcl} %Schriftgröße 12pt, DIN A4, 1 Spalte, einseitig bedruckt, Literaturverzeichnis in Inhaltsverzeichnis eintragen mit Nummerierung als Anhang
 
 \usepackage[T1]{fontenc} %Codierung für deutsche Schriftzeichen
 \usepackage[utf8]{inputenc} % UTF-8 Encoding
@@ -12,7 +12,7 @@
 \cfoot*{} %Fußzeile Mitte - leer
 \usepackage[german=quotes]{csquotes}
 \usepackage[backend=bibtex, citestyle=authoryear, bibstyle=authoryear, sorting=nty]{biblatex} %Angaben für Zitate - Nutzt Bibtex, Markierung auf Seite als alphanumerische Abkürzung, Sortierung nach Auftreten
-%\addbibresource{WissArb.bib} %Bibliotheksdatei
+\addbibresource{Aufgabe_1.bib} %Bibliotheksdatei
 % !!! Um Bibtex richtig zu verwenden, nach jeder Änderung in der .bib-Datei Bibtex laufen lassen !!!
 
 %\setcounter{tocdepth} {4} % Inhaltsverzeichnis bis subsubsection
@@ -25,46 +25,44 @@
 	\titlehead{Hochschule Rhein-Waal \\ %Hochschulinformationen
 	Fakultät: Kommunikation und Umwelt\\
 	Studiengang: Verwaltungsinformatik\\
-	Modul: XXXXXXXXXXXXXXXX\\}
+	Modul: Workshop 2: Wissenschaftliches Schreiben\\}
 %	\subject{Wissenschaftliches Arbeiten} %Art der Arbeit
-	\title{TITEL} %Titel
+	\title{Aufgabe 1\\
+	Forschungsthema, Forschungsfrage und Quellenrecherche} %Titel
 %	\subtitle{Einfallstore für Black Hat Hacker in Netzwerke} %Untertitel
-	\author{Linus Wolf}
+	\author{Linus Wolf - 28611}
 	\date{\today} %Datum (heute)
 %	\publishers{Betreut durch Professor Frank Zimmer} %Betreuender Professor und zusätzliche Infos
 
-%\maketitle %Erzeuge Titelblatt (Ignoriert in scrreprt voreingestellte Kopf- und Fußzeile)
+\maketitle %Erzeuge Titelblatt (Ignoriert in scrreprt voreingestellte Kopf- und Fußzeile)
 
 %\newpage %Ende Abstract
 %\tableofcontents %Erzeuge Inhaltsverzeichnis (Bei Fehler erneut kompilieren - ToC braucht 2 Durchläufe)
 
-%\newpage %Abschluss Titel und ToC - Neue Seite für Inhalt
+\newpage %Abschluss Titel und ToC - Neue Seite für Inhalt
 \pagenumbering{arabic} %Seitennummerierung 1, 2, 3 etc. - Startet neu bei 1
 
-	\section{Einleitung}
+	\section{Forschungsfeld}
+Als Forschungsfeld wurde der Bereich ,,Gefahren durch das Internet der Dinge (Internet of Things - IoT)'' gewählt.
 
-	\section{Dauerhafte Erreichbarkeit von Smart Home Geräten}
-		\subsection{Mash-Netzwerk}
-		\subsection{Zigbee}
-%		\subsection{etc. bei Bedarf XXXXX}
-	
-	\section{Angriffsszenarien}
-		\subsection{Hacking}
-			\subsubsection{White Hat Hacking}
-			\subsubsection{Black Hat Hacking}
-		\subsection{Ausnutzung von Fehlern in der Sicherheit von Smart Home Geräten}
-		\subsection{Man-in-the-Middle-Angriff}
-		\subsection{Seitenkanalattacke}
-%		\subsection{etc. bei Bedarf XXXXX}
-		
-	\section{Gründe für das Hacking}
-		\subsection{Einfallstore in Netzwerke}
-		\subsection{Botnetze}		
-		\subsection{Ausspähen von menschlicher Anwesenheit}
-	\section{Fazit}
+Das Internet der Dinge (Internet of Things - IoT) beschreibt die zunehmende Vernetzung von Alltagsgegenständen, Geräten und Maschinen über das Internet. Während diese Entwicklung auch Vorteile mit sich bringt, wie z. B. Automatisierung, Effizienzsteigerung und neue Geschäftsmodelle, entstehen gleichzeitig ernstzunehmende Risiken. Das Forschungsfeld ,,Gefahren durch das IoT'' beschäftigt sich mit genau diesen Schattenseiten und rückt vor allem die sicherheitskritischen und datenschutzrelevanten Aspekte in den Fokus. Dabei kann es auch um Metadaten gehen (welches Gerät redet von wo aus mit wem), die ebenfalls ausgewertet werden können.
 
-\newpage %Abschluss Inhalt - Neue Seite für Anhänge
-\appendix %Anhänge
+Die Interesse für den Bereich entstand im letztem Semester durch das Wahlpflichtmodul ,,Technischer Datenschutz und Mediensicherheit'' bei Professor Greveler. Im Rahmen des Kurses wurde von mir ein Feldexperiment am Amts- und Landgericht Krefeld, sowie der Staatsanwaltschaft Krefeld durchgeführt. Bei dem Experiment ging es um die Möglichkeit WLAN-Signale aus den Gebäuden abzufangen und sich über unzureichend gesicherte Verbindungen unberechtigten Zugang zu Netzwerken zu beschaffen. Während des Experiments konnten kein Zugang zu solch einem Netzwerk der Justizbehörde gefunden werden, jedoch wurden offene Netzwerke festgestellt, die von Geräten aus dem IoT-Bereich ausgingen. Hierbei handelte es sich um ungesicherten Zugang zur Einrichtung einer Soundbar. Ein anderes Team im Kurs untersuchte die Möglichkeit App-gesteuerte IoT-Beleuchtungsmittel (als Beispiel sei Philipps Hue genannt) zu übernehmen oder in die damit verbundenen Netzwerke einzudringen.
+
+In den Nachrichten finden sich auch gelegentlich Meldungen, die auf Fehler im Umgang mit dem IoT oder dem Leak von IoT-Daten hinweisen. Erwähnt sei hier der Leak von Fahrzeug- und Bewegungsdaten aus dem VW-Konzern im Jahr 2024\footnote{ADAC-Bericht - https://www.adac.de/news/vw-datenleck/}\footnote{Präsentation auf dem 38C3 des Chaos Computer Clubs - https://www.youtube.com/watch?v=iHsz6jzjbRc}.
+
+Das Forschungsfeld wurde gewählt, da es die Sicherheit von Netzwerken der Landesverwaltung betreffen kann.
+
+\newpage
+	\section{Forschungsfrage}
+,,Analyse der Liegenschaften des Rechenzentrum der Finanzverwaltung des Landes NRW (RZF NRW) auf IoT-Signale und Ausarbeitung von Informationsmaterial über potentielle Gefahren im Bereich IoT für die Hausleitung und die Mitarbeiter.''
+
+
+	\section{Besondere Quelle}
+
+%\newpage %Abschluss Inhalt - Neue Seite für Anhänge
+%\appendix %Anhänge
+\nocite{*}
 \printbibliography %Erzeuge Literaturverzeichnis
 %\listoffigures %Abbildungsverzeichnis
 \end{document}

@@ -1,0 +1,70 @@
+\documentclass[12pt, a4paper, onecolumn, oneside, toc=bibliographynumbered, liststotoc]{scrartcl} %Schriftgröße 12pt, DIN A4, 1 Spalte, einseitig bedruckt, Literaturverzeichnis in Inhaltsverzeichnis eintragen mit Nummerierung als Anhang
+
+\usepackage[T1]{fontenc} %Codierung für deutsche Schriftzeichen
+\usepackage[utf8]{inputenc} % UTF-8 Encoding
+\usepackage[ngerman]{babel} % Neue Deutsche Rechtschreibung
+\usepackage[onehalfspacing]{setspace} %1,5 Zeilen Zeilenabstand
+\usepackage{scrlayer-scrpage} %Kontrolle von Fuß- und Kopfzeile
+\usepackage{graphicx} %Einfügen von Bildern
+\usepackage[printonlyused, nohyperlinks, smaller]{acronym} %Unterstützung für Abkürzungen und Abkürzungsverzeichnis - es werden nur verwendete Abk. gedruckt
+\pagestyle{scrheadings} %Seitenstil
+\chead*{\pagemark} %Kopfzeile Mitte - Seitenzahl
+\cfoot*{} %Fußzeile Mitte - leer
+\usepackage[german=quotes]{csquotes}
+\usepackage[backend=bibtex, citestyle=authoryear, bibstyle=authoryear, sorting=nty]{biblatex} %Angaben für Zitate - Nutzt Bibtex, Markierung auf Seite als alphanumerische Abkürzung, Sortierung nach Auftreten
+%\addbibresource{WissArb.bib} %Bibliotheksdatei
+% !!! Um Bibtex richtig zu verwenden, nach jeder Änderung in der .bib-Datei Bibtex laufen lassen !!!
+
+%\setcounter{tocdepth} {4} % Inhaltsverzeichnis bis subsubsection
+%\setcounter{secnumdepth}{4} % Nummerierung des Inhaltsverzeichnis bis subsubsection
+
+\begin{document}
+%Titelblatt und Inhaltsverzeichnis
+\pagenumbering{roman} %Seitennummerierung i, ii, iii etc. 
+	%Angaben für Maketitle
+	\titlehead{Hochschule Rhein-Waal \\ %Hochschulinformationen
+	Fakultät: Kommunikation und Umwelt\\
+	Studiengang: Verwaltungsinformatik\\
+	Modul: XXXXXXXXXXXXXXXX\\}
+%	\subject{Wissenschaftliches Arbeiten} %Art der Arbeit
+	\title{TITEL} %Titel
+%	\subtitle{Einfallstore für Black Hat Hacker in Netzwerke} %Untertitel
+	\author{Linus Wolf}
+	\date{\today} %Datum (heute)
+%	\publishers{Betreut durch Professor Frank Zimmer} %Betreuender Professor und zusätzliche Infos
+
+\maketitle %Erzeuge Titelblatt (Ignoriert in scrreprt voreingestellte Kopf- und Fußzeile)
+
+\newpage %Ende Abstract
+\tableofcontents %Erzeuge Inhaltsverzeichnis (Bei Fehler erneut kompilieren - ToC braucht 2 Durchläufe)
+
+\newpage %Abschluss Titel und ToC - Neue Seite für Inhalt
+\pagenumbering{arabic} %Seitennummerierung 1, 2, 3 etc. - Startet neu bei 1
+
+	\section{Einleitung}
+
+	\section{Dauerhafte Erreichbarkeit von Smart Home Geräten}
+		\subsection{Mash-Netzwerk}
+		\subsection{Zigbee}
+%		\subsection{etc. bei Bedarf XXXXX}
+	
+	\section{Angriffsszenarien}
+		\subsection{Hacking}
+			\subsubsection{White Hat Hacking}
+			\subsubsection{Black Hat Hacking}
+		\subsection{Ausnutzung von Fehlern in der Sicherheit von Smart Home Geräten}
+		\subsection{Man-in-the-Middle-Angriff}
+		\subsection{Seitenkanalattacke}
+%		\subsection{etc. bei Bedarf XXXXX}
+		
+	\section{Gründe für das Hacking}
+		\subsection{Einfallstore in Netzwerke}
+		\subsection{Botnetze}		
+		\subsection{Ausspähen von menschlicher Anwesenheit}
+	\section{Fazit}
+
+\newpage %Abschluss Inhalt - Neue Seite für Anhänge
+\appendix %Anhänge
+\printbibliography %Erzeuge Literaturverzeichnis
+\listoffigures %Abbildungsverzeichnis
+\end{document}
