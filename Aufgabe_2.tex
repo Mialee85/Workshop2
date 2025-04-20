@@ -1,4 +1,4 @@
-\documentclass[12pt, a4paper, onecolumn, oneside, toc=bibliographynumbered, liststotoc]{scrartcl} %Schriftgröße 12pt, DIN A4, 1 Spalte, einseitig bedruckt, Literaturverzeichnis in Inhaltsverzeichnis eintragen mit Nummerierung als Anhang
+\documentclass[11pt, a4paper, onecolumn, oneside, toc=bibliographynumbered, liststotoc]{scrartcl} %Schriftgröße 12pt, DIN A4, 1 Spalte, einseitig bedruckt, Literaturverzeichnis in Inhaltsverzeichnis eintragen mit Nummerierung als Anhang
 
 \usepackage[T1]{fontenc} %Codierung für deutsche Schriftzeichen
 \usepackage[utf8]{inputenc} % UTF-8 Encoding
@@ -25,46 +25,68 @@
 	\titlehead{Hochschule Rhein-Waal \\ %Hochschulinformationen
 	Fakultät: Kommunikation und Umwelt\\
 	Studiengang: Verwaltungsinformatik\\
-	Modul: XXXXXXXXXXXXXXXX\\}
+	Modul: Workshop 2: Wissenschaftliches Schreiben\\}
 %	\subject{Wissenschaftliches Arbeiten} %Art der Arbeit
-	\title{TITEL} %Titel
+	\title{Aufgabe 2\\
+	Exzerpt} %Titel
 %	\subtitle{Einfallstore für Black Hat Hacker in Netzwerke} %Untertitel
-	\author{Linus Wolf}
+	\author{Linus Wolf - 28611}
 	\date{\today} %Datum (heute)
 %	\publishers{Betreut durch Professor Frank Zimmer} %Betreuender Professor und zusätzliche Infos
 
 \maketitle %Erzeuge Titelblatt (Ignoriert in scrreprt voreingestellte Kopf- und Fußzeile)
 
-\newpage %Ende Abstract
-\tableofcontents %Erzeuge Inhaltsverzeichnis (Bei Fehler erneut kompilieren - ToC braucht 2 Durchläufe)
+%\newpage %Ende Abstract
+%\tableofcontents %Erzeuge Inhaltsverzeichnis (Bei Fehler erneut kompilieren - ToC braucht 2 Durchläufe)
 
 \newpage %Abschluss Titel und ToC - Neue Seite für Inhalt
 \pagenumbering{arabic} %Seitennummerierung 1, 2, 3 etc. - Startet neu bei 1
 
-	\section{Einleitung}
+\rule{\textwidth}{0.4pt}
+Linus Wolf, Verwaltungsinformatik, 8. Semester\\
+Workshop 2: Wissenschaftliches Schreiben\\
+ZIEGLER, SÉBASTIEN (Hrsg.) 2019: ,,INTERNET OF THINGS SECURITY AND DATA PROTECTION'', CHAM(CH): SPRINGER, S. 1-7
 
-	\section{Dauerhafte Erreichbarkeit von Smart Home Geräten}
-		\subsection{Mash-Netzwerk}
-		\subsection{Zigbee}
+\rule{\textwidth}{0.4pt}
+
+\underline{Hauptthese}: In den zukünftigen Jahren werden kleine Geräte das Internet of Things massiv wachsen lassen. Jedes Gerät kann damit eine potentielle Schwachstelle darstellen und entweder als Einfallstor oder als Ziel für einen Angriff gelten. Gleichzeitig werden sich die Angriffsvektoren verschieben und es sind entsprechend Maßnahmen zu ergreifen.
+
+		\subsection*{Internet of Things Cybersecurity Paradigm Shift, Threat Matrix and Practical Taxonomy [1-7]}
+			\subsubsection*{[1-3]}
+Netzwerke lassen sich grob in 4 Bereiche einteilen. PAN (Personal Area Network), LAN (Local), WAN (Wide) und Cloud Bereiche. [Einzelne Definitionen lassen sich hier später entnehmen]; [Abbildung auf S. 2]
+
+,,By identifying and specifying the source of each category of attack and its ultimate target, we can differentiate several profiles and patterns.'' (S. 2)
+
+Das Ziel von Angriffen lässt sich in 4 Kategorien einteilen. Zugriff auf Information (A - Access), Vorübergehende Beeinträchtigung (B - Bother), Code, Daten oder Informationen ändern (C - Change), Ziel zerstören (D - Destroy)
+		
+			\subsubsection*{[3]}
+Klassisch lassen sich Angriffs- und Zielvektoren in eine Matrix anordnen. [Abbildung auf S.4][Klassische Angriffsvektoren von L, C oder W auf L oder C]
+		
+			\subsubsection*{[3-5]}
+,,With an expected 50 billion plus connected devices, Internet of Things deployments will be massive. It will substantially extend the surface of risk and increase the likelihood that a hacker will find a weak point.'' (S. 3)
+
+,,Internet of Things devices are often constrained devices. The prime concern [...] is energy-saving [...]. This leads to simplified code [...]. Such constraints directly impact the security [...].'' (S.3) [Sinngemäß gekürzt]
+
+IoT-Geräte werden auch in öffentlich zugänglichen Bereichen eingesetzt, dies erlaubt physischen Zugriff darauf. Bsp: Sicherheitskamera, Leuchtmittel.
+
+IoT-Geräte nutzen eine Vielzahl von Protokollen zur Kommunikation. 
+
+,,Cognitive bias: There is also a misperception and underestimation of the risks related to Internet of Things deployments. Internet of Things devices are too often perceived as simple and dumb and not containing strategic information. It is a serious misinterpretation if you consider that Internet of Things devices are connected to the network of the company and constitute new access points that are often physically accessible to outsiders with a lower level of security in terms of authentication and encryption.'' (S. 5)
+
+			\subsubsection*{[5-6]}
+Beschreibung von möglichen Angriffsszenarien und Angriffsvektoren. [Auffallend dabei sind Direktangriffe von W oder C auf P unter Umgehung des LAN und die direkte Attacke innerhalb eines IoT-Netzwerks]
+
+			\subsubsection*{[6-7]}
+Neue Sicherheitsmatrix mit deutlicher Hervorhebung von IoT-Attacken aus und in den Bereich P. [Abbildung S. 7]			
+				
+
+
 %		\subsection{etc. bei Bedarf XXXXX}
 	
-	\section{Angriffsszenarien}
-		\subsection{Hacking}
-			\subsubsection{White Hat Hacking}
-			\subsubsection{Black Hat Hacking}
-		\subsection{Ausnutzung von Fehlern in der Sicherheit von Smart Home Geräten}
-		\subsection{Man-in-the-Middle-Angriff}
-		\subsection{Seitenkanalattacke}
-%		\subsection{etc. bei Bedarf XXXXX}
-		
-	\section{Gründe für das Hacking}
-		\subsection{Einfallstore in Netzwerke}
-		\subsection{Botnetze}		
-		\subsection{Ausspähen von menschlicher Anwesenheit}
-	\section{Fazit}
 
-\newpage %Abschluss Inhalt - Neue Seite für Anhänge
-\appendix %Anhänge
-\printbibliography %Erzeuge Literaturverzeichnis
-\listoffigures %Abbildungsverzeichnis
+
+%\newpage %Abschluss Inhalt - Neue Seite für Anhänge
+%\appendix %Anhänge
+%\printbibliography %Erzeuge Literaturverzeichnis
+%\listoffigures %Abbildungsverzeichnis
 \end{document}
