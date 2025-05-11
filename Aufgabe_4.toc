@@ -1,0 +1,42 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {ngerman}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Einleitung}{1}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Dauerhafte Erreichbarkeit von Smart Home Geräten}{3}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Mash-Netzwerk}{3}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Zigbee}{5}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Angriffsszenarien}{6}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Hacking}{6}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.1}White Hat Hacking}{6}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.2}Black Hat Hacking}{6}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Ausnutzung von Fehlern in der Sicherheit von Routern und Smart Home Geräten}{7}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Spoofing}{8}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}Seitenkanalattacke}{9}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Gründe für das Hacking}{10}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Botnetze}{10}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Einfallstore in Netzwerke}{10}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Ausspähen von menschlicher Anwesenheit}{11}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}Identitätsdiebstahl}{11}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.5}Spurenloser Einbruch in Häuser oder Wohnungen}{13}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Schutzmaßnahmen}{14}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Fazit}{15}{}%
+\defcounter {refsection}{0}\relax 
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

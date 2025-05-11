@@ -1,0 +1,977 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.30)  11 MAY 2025 08:05
+entering extended mode
+**./Aufgabe_4.tex
+(Aufgabe_4.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-01-09> xparse <2020-03-03>
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrreprt.cl
+s
+Document Class: scrreprt 2020/09/21 v3.32 KOMA-Script document class (report)
+
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrkbase.st
+y
+Package: scrkbase 2020/09/21 v3.32 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbase.sty
+Package: scrbase 2020/09/21 v3.32 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.st
+y
+Package: scrlfile 2020/09/21 v3.32 KOMA-Script package (file load hooks)
+
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-ho
+ok.sty
+Package: scrlfile-hook 2020/09/21 v3.32 KOMA-Script package (using LaTeX hooks)
+
+
+LaTeX3 Info: Defining command \BeforeFile with sig. 'm' on line 61.
+
+
+LaTeX3 Info: Defining command \AfterFile with sig. 'm' on line 65.
+
+
+LaTeX3 Info: Defining command \BeforeClass with sig. 'm' on line 69.
+
+
+LaTeX3 Info: Defining command \BeforePackage with sig. 'm' on line 73.
+
+
+LaTeX3 Info: Defining command \AfterAtEndOfClass with sig. 'smo+m' on line 83.
+
+
+LaTeX3 Info: Defining command \AfterAtEndOfPackage with sig. 'smo+m' on line
+(LaTeX3)     93.
+
+
+LaTeX3 Info: Defining command \scrlfile@AfterClass with sig. 'smo+m' on line
+(LaTeX3)     173.
+
+
+LaTeX3 Info: Defining command \AfterClass with sig. '' on line 174.
+
+
+LaTeX3 Info: Defining command \scrlfile@AfterPackage with sig. 'smo+m' on line
+(LaTeX3)     191.
+
+
+LaTeX3 Info: Defining command \AfterPackage with sig. '' on line 192.
+
+
+LaTeX3 Info: Defining command \ReplaceInput with sig. '' on line 193.
+
+
+LaTeX3 Info: Defining command \ReplaceClass with sig. 'mm' on line 196.
+
+
+LaTeX3 Info: Defining command \ReplacePackage with sig. 'mm' on line 199.
+
+
+LaTeX3 Info: Defining command \UnReplaceInput with sig. '' on line 200.
+
+
+LaTeX3 Info: Defining command \UnReplaceClass with sig. 'm' on line 203.
+
+
+LaTeX3 Info: Defining command \UnReplacePackage with sig. 'mm' on line 206.
+
+
+LaTeX3 Info: Defining command \PreventPackageFromLoading with sig. 's+om' on
+(LaTeX3)     line 234.
+
+
+LaTeX3 Info: Defining command \StorePreventPackageFromLoading with sig. 'm' on
+(LaTeX3)     line 242.
+
+
+LaTeX3 Info: Defining command \ResetPreventPackageFromLoading with sig. '' on
+(LaTeX3)     line 247.
+
+
+LaTeX3 Info: Defining command \UnPreventPackageFromLoading with sig. 'sm' on
+(LaTeX3)     line 261.
+
+
+LaTeX3 Info: Defining command \BeforeClosingMainAux with sig. 'om' on line
+(LaTeX3)     274.
+
+
+LaTeX3 Info: Defining command \AfterReadingMainAux with sig. 'om' on line 287.
+
+
+LaTeX3 Info: Defining command \protected@immediate@write with sig. 'm+m+m' on
+(LaTeX3)     line 298.
+
+
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
+Package: scrlogo 2020/09/21 v3.32 KOMA-Script package (logo)
+))) (C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)))
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\tocbasic.st
+y
+Package: tocbasic 2020/09/21 v3.32 KOMA-Script package (handling toc-files)
+\scr@dte@tocline@numberwidth=\skip47
+\scr@dte@tocline@numbox=\box47
+)
+Package tocbasic Info: babel extension for `toc' omitted
+(tocbasic)             because of missing \bbl@set@language on input line 137.
+Package scrreprt Info: You've used standard option `12pt'.
+(scrreprt)             This is correct!
+(scrreprt)             Internally I'm using `fontsize=12pt'.
+(scrreprt)             If you'd like to set the option with \KOMAoptions,
+(scrreprt)             you'd have to use `fontsize=12pt' there
+(scrreprt)             instead of `12pt', too.
+Class scrreprt Info: You've used standard option `onecolumn'.
+(scrreprt)           This is correct!
+(scrreprt)           Internally I'm using `twocolumn=false'.
+(scrreprt)           If you'd like to set the option with \KOMAoptions,
+(scrreprt)           you'd have to use `twocolumn=false' there
+(scrreprt)           instead of `onecolumn', too.
+Class scrreprt Info: You've used standard option `oneside'.
+(scrreprt)           This is correct!
+(scrreprt)           Internally I'm using `twoside=false'.
+(scrreprt)           If you'd like to set the option with \KOMAoptions,
+(scrreprt)           you'd have to use `twoside=false' there
+(scrreprt)           instead of `oneside', too.
+
+
+Class scrreprt Warning: You've used obsolete option `liststotoc'.
+(scrreprt)              Usage of this option indicates an old document
+(scrreprt)              and changes compatibility level using
+(scrreprt)              `listof=totoc,version=first,
+(scrreprt)              enabledeprecatedfontcommands' that may result
+(scrreprt)              in further warnings.
+(scrreprt)              If you don't want this, you should simply
+(scrreprt)              replace option `liststotoc' by `listof=totoc'.
+
+Class scrreprt Info: Switching compatibility level to `first'.
+
+Class scrreprt Warning: deprecated option `enabledeprecatedfontcommands'.
+(scrreprt)              Note, that this option was already depreacted when
+(scrreprt)              it has been defined. Support for old font commands
+(scrreprt)              has been removed from KOMA-Script more than one
+(scrreprt)              decade ago. It is not recommended to use them any
+(scrreprt)              longer. Therefore usage of this class option also
+(scrreprt)              is not recommended.
+
+Class scrreprt Info: File `scrsize12pt.clo' used to setup font sizes on input l
+ine 2434.
+
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrsize12pt
+.clo
+File: scrsize12pt.clo 2020/09/21 v3.32 KOMA-Script font size class option (12pt
+)
+)
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\typearea.st
+y
+Package: typearea 2020/09/21 v3.32 KOMA-Script package (type area)
+\ta@bcor=\skip48
+\ta@div=\count177
+Package typearea Info: You've used standard option `a4paper'.
+(typearea)             This is correct!
+(typearea)             Internally I'm using `paper=a4'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `paper=a4' there
+(typearea)             instead of `a4paper', too.
+Package typearea Info: You've used standard option `onecolumn'.
+(typearea)             This is correct!
+(typearea)             Internally I'm using `twocolumn=false'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `twocolumn=false' there
+(typearea)             instead of `onecolumn', too.
+Package typearea Info: You've used standard option `oneside'.
+(typearea)             This is correct!
+(typearea)             Internally I'm using `twoside=false'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `twoside=false' there
+(typearea)             instead of `oneside', too.
+\ta@hblk=\skip49
+\ta@vblk=\skip50
+\ta@temp=\skip51
+\footheight=\skip52
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 12
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 448.13095pt
+(typearea)              DIV departure   = -6%
+(typearea)              \evensidemargin = 2.4185pt
+(typearea)              \oddsidemargin  = 2.4185pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 635.5pt
+(typearea)              \topmargin      = -41.72441pt
+(typearea)              \headheight     = 18.125pt
+(typearea)              \headsep        = 21.75pt
+(typearea)              \topskip        = 12.0pt
+(typearea)              \footskip       = 50.75pt
+(typearea)              \baselineskip   = 14.5pt
+(typearea)              on input line 1740.
+)
+\c@part=\count178
+\c@chapter=\count179
+\c@section=\count180
+\c@subsection=\count181
+\c@subsubsection=\count182
+\c@paragraph=\count183
+\c@subparagraph=\count184
+\scr@dte@chapter@maxnumwidth=\skip53
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\chapter on input line 5627.
+\scr@dte@section@maxnumwidth=\skip54
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\section on input line 5638.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\section on input line 5638.
+\scr@dte@part@maxnumwidth=\skip55
+Class scrreprt Info: using compatibility default `afterindent=true'
+(scrreprt)           for `\part on input line 5647.
+\scr@dte@subsection@maxnumwidth=\skip56
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\subsection on input line 5657.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\subsection on input line 5657.
+\scr@dte@subsubsection@maxnumwidth=\skip57
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\subsubsection on input line 5667.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\subsubsection on input line 5667.
+\scr@dte@paragraph@maxnumwidth=\skip58
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\paragraph on input line 5678.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\paragraph on input line 5678.
+\scr@dte@subparagraph@maxnumwidth=\skip59
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\subparagraph on input line 5688.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\subparagraph on input line 5688.
+\abovecaptionskip=\skip60
+\belowcaptionskip=\skip61
+\c@pti@nb@sid@b@x=\box48
+Package tocbasic Info: babel extension for `lof' omitted
+(tocbasic)             because of missing \bbl@set@language on input line 6925.
+
+\scr@dte@figure@maxnumwidth=\skip62
+\c@figure=\count185
+Package tocbasic Info: babel extension for `lot' omitted
+(tocbasic)             because of missing \bbl@set@language on input line 6942.
+
+\scr@dte@table@maxnumwidth=\skip63
+\c@table=\count186
+Class scrreprt Info: Using old \@makefntext due to compatibility level
+(scrreprt)           less than 3.22 on input line 7098.
+Class scrreprt Info: Redefining `\numberline' on input line 7111.
+\bibindent=\dimen138
+) (C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+)
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+)
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2020/12/16 3.52 The Babel package
+
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
+File: babel.def 2020/12/16 3.52 Babel common definitions
+\babel@savecnt=\count187
+\U@D=\dimen139
+\l@babelnohyphens=\language79
+
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+)
+\bbl@dirlevel=\count188
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngerman.ld
+f
+Language: ngerman 2020/07/21 v2.12 German support for babel (post-1996 orthogra
+phy)
+
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngermanb.l
+df
+Language: ngermanb 2020/07/21 v2.12 German support for babel (post-1996 orthogr
+aphy)
+Package babel Info: Making " an active character on input line 121.
+)))
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlayer-sc
+rpage.sty
+Package: scrlayer-scrpage 2020/09/21 v3.32 KOMA-Script package (end user interf
+ace for scrlayer)
+
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlayer.st
+y
+Package: scrlayer 2020/09/21 v3.32 KOMA-Script package (defining layers and pag
+e styles)
+Package scrlayer Info: Using already defined \footheight
+(scrlayer)             hoping, that this is a length and
+(scrlayer)             not only a macro on input line 109.
+Package scrlayer Info: patching LaTeX kernel macro \pagestyle on input line 211
+6.
+)
+Package scrlayer-scrpage Info: Makeing stand-alone element `pagehead' from
+(scrlayer-scrpage)             alias to `pageheadfoot' on input line 1085.
+Package scrlayer-scrpage Info: deactivating warning for font element
+(scrlayer-scrpage)             `pagefoot' on input line 1109.
+)
+Package scrlayer-scrpage Info: auto-selection of `pagestyleset=KOMA-Script'.
+
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen140
+\Gin@req@width=\dimen141
+) (C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count189
+\float@exts=\toks18
+\float@box=\box49
+\@float@everytoks=\toks19
+\@floatcapt=\box50
+)
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/acronym\acronym.sty
+Package: acronym 2020/04/17 v1.47 Support for acronyms (Tobias Oetiker)
+
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/bigfoot\suffix.sty
+Package: suffix 2006/07/15 1.5a Variant command support
+)
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/xstring\xstring.sty
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/generic/xstring\xstring.tex
+\integerpart=\count190
+\decimalpart=\count191
+)
+Package: xstring 2021/07/21 v1.84 String manipulations (CT)
+) (C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/relsize\relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\AC@clearlist=\toks20
+)
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
+Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
+
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count192
+)
+\csq@reset=\count193
+\csq@gtype=\count194
+\csq@glevel=\count195
+\csq@qlevel=\count196
+\csq@maxlvl=\count197
+\csq@tshold=\count198
+\csq@ltx@everypar=\toks21
+
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
+File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cfg
+File: csquotes.cfg 
+)
+Package csquotes Info: Redefining alias 'german' -> 'german/quotes'.
+) (C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
+
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.s
+ty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)) (C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count199
+
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count266
+\c@listtotal=\count267
+\c@listcount=\count268
+\c@liststart=\count269
+\c@liststop=\count270
+\c@citecount=\count271
+\c@citetotal=\count272
+\c@multicitecount=\count273
+\c@multicitetotal=\count274
+\c@instcount=\count275
+\c@maxnames=\count276
+\c@minnames=\count277
+\c@maxitems=\count278
+\c@minitems=\count279
+\c@citecounter=\count280
+\c@maxcitecounter=\count281
+\c@savedcitecounter=\count282
+\c@uniquelist=\count283
+\c@uniquename=\count284
+\c@refsection=\count285
+\c@refsegment=\count286
+\c@maxextratitle=\count287
+\c@maxextratitleyear=\count288
+\c@maxextraname=\count289
+\c@maxextradate=\count290
+\c@maxextraalpha=\count291
+\c@abbrvpenalty=\count292
+\c@highnamepenalty=\count293
+\c@lownamepenalty=\count294
+\c@maxparens=\count295
+\c@parenlevel=\count296
+\blx@tempcnta=\count297
+\blx@tempcntb=\count298
+\blx@tempcntc=\count299
+\blx@maxsection=\count300
+\blx@maxsegment@0=\count301
+\blx@notetype=\count302
+\blx@parenlevel@text=\count303
+\blx@parenlevel@foot=\count304
+\blx@sectionciteorder@0=\count305
+\blx@entrysetcounter=\count306
+\blx@biblioinstance=\count307
+\labelnumberwidth=\skip64
+\labelalphawidth=\skip65
+\biblabelsep=\skip66
+\bibitemsep=\skip67
+\bibnamesep=\skip68
+\bibinitsep=\skip69
+\bibparsep=\skip70
+\bibhang=\skip71
+\blx@bcfin=\read3
+\blx@bcfout=\write3
+\blx@langwohyphens=\language80
+\c@mincomprange=\count308
+\c@maxcomprange=\count309
+\c@mincompwidth=\count310
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
+File: blx-dm.def 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex citestyle data model...
+Package biblatex Info: ... file 'authoryear.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count311
+\c@savedafterword=\count312
+\c@annotator=\count313
+\c@savedannotator=\count314
+\c@author=\count315
+\c@savedauthor=\count316
+\c@bookauthor=\count317
+\c@savedbookauthor=\count318
+\c@commentator=\count319
+\c@savedcommentator=\count320
+\c@editor=\count321
+\c@savededitor=\count322
+\c@editora=\count323
+\c@savededitora=\count324
+\c@editorb=\count325
+\c@savededitorb=\count326
+\c@editorc=\count327
+\c@savededitorc=\count328
+\c@foreword=\count329
+\c@savedforeword=\count330
+\c@holder=\count331
+\c@savedholder=\count332
+\c@introduction=\count333
+\c@savedintroduction=\count334
+\c@namea=\count335
+\c@savednamea=\count336
+\c@nameb=\count337
+\c@savednameb=\count338
+\c@namec=\count339
+\c@savednamec=\count340
+\c@translator=\count341
+\c@savedtranslator=\count342
+\c@shortauthor=\count343
+\c@savedshortauthor=\count344
+\c@shorteditor=\count345
+\c@savedshorteditor=\count346
+\c@labelname=\count347
+\c@savedlabelname=\count348
+\c@institution=\count349
+\c@savedinstitution=\count350
+\c@lista=\count351
+\c@savedlista=\count352
+\c@listb=\count353
+\c@savedlistb=\count354
+\c@listc=\count355
+\c@savedlistc=\count356
+\c@listd=\count357
+\c@savedlistd=\count358
+\c@liste=\count359
+\c@savedliste=\count360
+\c@listf=\count361
+\c@savedlistf=\count362
+\c@location=\count363
+\c@savedlocation=\count364
+\c@organization=\count365
+\c@savedorganization=\count366
+\c@origlocation=\count367
+\c@savedoriglocation=\count368
+\c@origpublisher=\count369
+\c@savedorigpublisher=\count370
+\c@publisher=\count371
+\c@savedpublisher=\count372
+\c@language=\count373
+\c@savedlanguage=\count374
+\c@origlanguage=\count375
+\c@savedoriglanguage=\count376
+\c@pageref=\count377
+\c@savedpageref=\count378
+\shorthandwidth=\skip72
+\shortjournalwidth=\skip73
+\shortserieswidth=\skip74
+\shorttitlewidth=\skip75
+\shortauthorwidth=\skip76
+\shorteditorwidth=\skip77
+\locallabelnumberwidth=\skip78
+\locallabelalphawidth=\skip79
+\localshorthandwidth=\skip80
+\localshortjournalwidth=\skip81
+\localshortserieswidth=\skip82
+\localshorttitlewidth=\skip83
+\localshortauthorwidth=\skip84
+\localshorteditorwidth=\skip85
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
+File: blx-compat.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load BibTeX backend compatibility...
+Package biblatex Info: ... file 'blx-bibtex.def' found.
+
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-bibtex.def
+File: blx-bibtex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+
+Package biblatex Warning: Using fall-back BibTeX(8) backend:
+(biblatex)                functionality may be reduced/unavailable.
+
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
+File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+\c@textcitecount=\count379
+\c@textcitetotal=\count380
+\c@textcitemaxnames=\count381
+\c@biburlbigbreakpenalty=\count382
+\c@biburlbreakpenalty=\count383
+\c@biburlnumpenalty=\count384
+\c@biburlucpenalty=\count385
+\c@biburllcpenalty=\count386
+\biburlbigskip=\muskip17
+\biburlnumskip=\muskip18
+\biburlucskip=\muskip19
+\biburllcskip=\muskip20
+\c@smartand=\count387
+)
+Package biblatex Info: Trying to load bibliography style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.bbx' found.
+
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\authoryear
+.bbx
+File: authoryear.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.b
+bx
+File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count388
+\c@bbx:relatedtotal=\count389
+))
+Package biblatex Info: Trying to load citation style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.cbx' found.
+
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\authoryear
+.cbx
+File: authoryear.cbx 2020/12/31 v3.16 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
+File: biblatex.cfg 
+))
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
+
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2021-01-09 L3 backend support: PDF output (pdfTeX)
+\l__kernel_color_stack_int=\count390
+\l__pdf_internal_box=\box51
+) (Aufgabe_4.aux)
+\openout1 = `Aufgabe_4.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count391
+\scratchdimen=\dimen142
+\scratchbox=\box52
+\nofMPsegments=\count392
+\nofMParguments=\count393
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count394
+\MPscratchDim=\dimen143
+\MPnumerator=\count395
+\makeMPintoPDFobject=\count396
+\everyMPtoPDFconversion=\toks23
+)
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+)
+Package biblatex Info: Trying to load language 'ngerman'...
+Package biblatex Info: ... file 'ngerman.lbx' found.
+
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\ngerman.lb
+x
+File: ngerman.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\german.lbx
+File: german.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\german.lbx
+File: german.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+))
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Input encoding 'utf8' specified.
+Package biblatex Info: Data encoding 'utf8' specified.
+(biblatex)             No need to reencode data.
+Package biblatex Info: Document encoding is UTF8 ....
+ (C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2021-01-09 L3 programming layer (loader) 
+)
+Package biblatex Info: ... and expl3
+(biblatex)             2021-01-09 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3
+.sty
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e.sty
+Package: xparse 2020-10-27 L3 Experimental document command parser
+
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e-generic.tex))
+Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
+)
+\openout3 = `Aufgabe_4-blx.bib'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'Aufgabe_4.bbl' not found.
+
+No file Aufgabe_4.bbl.
+Package biblatex Info: Reference section=0 on input line 25.
+Package biblatex Info: Reference segment=0 on input line 25.
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+
+ []
+
+LaTeX Font Info:    Trying to load font information for T1+cmss on input line 4
+2.
+(C:\Users\Linus\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmss.fd
+File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <17.28> on input line 42.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 42.
+
+[1
+
+
+{C:/Users/Linus/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+(Aufgabe_4.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 8.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 8.
+)
+\tf@toc=\write4
+\openout4 = `Aufgabe_4.toc'.
+
+ [2
+
+]
+chapter 1.
+
+Class scrreprt Warning: \float@addtolists detected!
+(scrreprt)              Implementation of \float@addtolist became
+(scrreprt)              deprecated in KOMA-Script v3.01 2008/11/14 and
+(scrreprt)              has been replaced by several more flexible
+(scrreprt)              features of package `tocbasic`.
+(scrreprt)              Since Version 3.12 support for deprecated
+(scrreprt)              \float@addtolist interface has been
+(scrreprt)              restricted to only some of the KOMA-Script
+(scrreprt)              features and been removed from others.
+(scrreprt)              Loading of package `scrhack' may help to
+(scrreprt)              avoid this warning, if you are using a
+(scrreprt)              a package that still implements the
+(scrreprt)              deprecated \float@addtolist interface.
+
+<AnzahlSmartHomeHaushalteStatista.png, id=12, 1107.38719pt x 618.81187pt>
+File: AnzahlSmartHomeHaushalteStatista.png Graphic file (type png)
+<use AnzahlSmartHomeHaushalteStatista.png>
+Package pdftex.def Info: AnzahlSmartHomeHaushalteStatista.png  used on input li
+ne 55.
+(pdftex.def)             Requested size: 403.31511pt x 225.36873pt.
+
+LaTeX Warning: Citation 'BundesamtfurSicherheitinderInformationstechnik.2021010
+6b' on page 1 undefined on input line 63.
+
+
+Overfull \hbox (56.25688pt too wide) in paragraph at lines 62--64
+\T1/cmr/m/n/12 mit-tie-run-gen zu er-ken-nen ([]). 
+ []
+
+[1
+
+ <./AnzahlSmartHomeHaushalteStatista.png (PNG copy)>] [2]
+chapter 2.
+[3
+
+]
+<MeshNetwork.png, id=24, 3353.52875pt x 1727.45375pt>
+File: MeshNetwork.png Graphic file (type png)
+<use MeshNetwork.png>
+Package pdftex.def Info: MeshNetwork.png  used on input line 77.
+(pdftex.def)             Requested size: 403.31511pt x 207.7336pt.
+
+
+LaTeX Warning: Citation 'Cilfone.2019' on page 4 undefined on input line 82.
+
+
+LaTeX Warning: Citation 'Gessler.2015' on page 4 undefined on input line 87.
+
+[4 <./MeshNetwork.png>] [5]
+chapter 3.
+
+LaTeX Warning: Citation 'Sinha.2020' on page 6 undefined on input line 94.
+
+
+LaTeX Warning: Citation 'Sinha.2020' on page 6 undefined on input line 98.
+
+
+LaTeX Warning: Citation 'Chantzis.2021' on page 6 undefined on input line 105.
+
+[6
+
+]
+<Sicherheitsupdates.png, id=36, 749.04843pt x 354.57469pt>
+File: Sicherheitsupdates.png Graphic file (type png)
+<use Sicherheitsupdates.png>
+Package pdftex.def Info: Sicherheitsupdates.png  used on input line 110.
+(pdftex.def)             Requested size: 403.31511pt x 190.91562pt.
+ [7]
+
+LaTeX Warning: Citation 'FrauenhoferFKIE.2020' on page 8 undefined on input lin
+e 115.
+
+<MITM.png, id=40, 276.28218pt x 95.6072pt>
+File: MITM.png Graphic file (type png)
+<use MITM.png>
+Package pdftex.def Info: MITM.png  used on input line 122.
+(pdftex.def)             Requested size: 268.8813pt x 93.04521pt.
+[8 <./Sicherheitsupdates.png>]
+
+LaTeX Warning: Citation 'Abrishamchi.2017' on page 9 undefined on input line 13
+0.
+
+
+LaTeX Warning: Citation 'Khan.2010' on page 9 undefined on input line 134.
+
+[9 <./MITM.png (PNG copy)>]
+chapter 4.
+
+LaTeX Warning: Citation 'BundesamtfurSicherheitinderInformationstechnik.2021010
+6' on page 10 undefined on input line 140.
+
+
+LaTeX Warning: Citation 'Putman.2018' on page 10 undefined on input line 140.
+
+[10
+
+]
+
+LaTeX Warning: Citation '.20180128' on page 11 undefined on input line 148.
+
+<Heatmap.png, id=50, 596.98032pt x 536.75531pt>
+File: Heatmap.png Graphic file (type png)
+<use Heatmap.png>
+Package pdftex.def Info: Heatmap.png  used on input line 152.
+(pdftex.def)             Requested size: 403.31511pt x 362.62999pt.
+[11] [12 <./Heatmap.png>]
+
+LaTeX Warning: Citation 'Chantzis.2021' on page 13 undefined on input line 169.
+
+
+
+Overfull \hbox (34.52629pt too wide) in paragraph at lines 169--170
+[]\T1/cmr/m/n/12 Ein ent-spre-chen-der An-griff in-klu-si-ve ver-wen-de-ter Sof
+t- und Hard-wa-re wird in []
+ []
+
+[13]
+chapter 5.
+[14
+
+]
+chapter 6.
+
+LaTeX Warning: Citation 'Chantzis.2021' on page 15 undefined on input line 177.
+
+
+
+LaTeX Warning: Citation 'Chantzis.2021' on page 15 undefined on input line 184.
+
+
+[15
+
+]
+
+LaTeX Warning: Empty bibliography on input line 189.
+
+[16] (Aufgabe_4.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                Aufgabe_4
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'Aufgabe_4.run.xml'.
+\openout1 = `Aufgabe_4.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 15716 strings out of 479618
+ 326182 string characters out of 2865026
+ 997952 words of memory out of 3000000
+ 32706 multiletter control sequences out of 15000+200000
+ 414393 words of font info for 49 fonts, out of 3000000 for 9000
+ 1143 hyphenation exceptions out of 8191
+ 111i,18n,116p,10606b,2241s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Linus\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
+1200.pk> <C:\Users\Linus\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\ecsx1440.pk> <C:\Users\Linus\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\ecsx1728.pk> <C:\Users\Linus\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\ecbx1200.pk> <C:\Users\Linus\AppData\Local\MiKTeX\fonts/pk/ljfour
+/jknappen/ec/dpi600\ecsx1200.pk> <C:\Users\Linus\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\Linus\AppData\Local\MiKTeX\fon
+ts/pk/ljfour/jknappen/ec/dpi600\ecsx2488.pk> <C:\Users\Linus\AppData\Local\MiKT
+eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk>
+Output written on Aufgabe_4.pdf (18 pages, 673491 bytes).
+PDF statistics:
+ 376 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+
