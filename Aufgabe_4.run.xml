@@ -85,7 +85,6 @@
     </requires>
     <requires type="editable">
       <file>Aufgabe_1.bib</file>
-      <file>WissArb.bib</file>
     </requires>
     <requires type="static">
       <file>biblatex.bst</file>

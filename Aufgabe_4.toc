@@ -1,42 +1,34 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {ngerman}{}
 \defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{iii}{}%
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Einleitung}{1}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Dauerhafte Erreichbarkeit von Smart Home Geräten}{3}{}%
+\contentsline {chapter}{\numberline {2}Netzwerkverbindungen von \ac {iot}-Geräten}{2}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Mash-Netzwerk}{3}{}%
+\contentsline {section}{\numberline {2.1}Mash-Netzwerk}{2}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Zigbee}{5}{}%
+\contentsline {section}{\numberline {2.2}Zigbee}{3}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Angriffsszenarien}{6}{}%
+\contentsline {chapter}{\numberline {3}Angriffsszenarien}{4}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Hacking}{6}{}%
+\contentsline {section}{\numberline {3.1}Ausnutzung von Fehlern in der Sicherheit von Routern und Smart Home Geräten}{4}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.1}White Hat Hacking}{6}{}%
+\contentsline {section}{\numberline {3.2}Spoofing}{5}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.2}Black Hat Hacking}{6}{}%
+\contentsline {section}{\numberline {3.3}Seitenkanalattacke}{5}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Ausnutzung von Fehlern in der Sicherheit von Routern und Smart Home Geräten}{7}{}%
+\contentsline {chapter}{\numberline {4}Gründe für das Hacking}{7}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Spoofing}{8}{}%
+\contentsline {section}{\numberline {4.1}Botnetze}{7}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Seitenkanalattacke}{9}{}%
+\contentsline {section}{\numberline {4.2}Einfallstore in Netzwerke}{7}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Gründe für das Hacking}{10}{}%
+\contentsline {section}{\numberline {4.3}Ausspähen von menschlicher Anwesenheit}{8}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Botnetze}{10}{}%
+\contentsline {section}{\numberline {4.4}Spurenloser Einbruch in Häuser oder Wohnungen}{9}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Einfallstore in Netzwerke}{10}{}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Ausspähen von menschlicher Anwesenheit}{11}{}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Identitätsdiebstahl}{11}{}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Spurenloser Einbruch in Häuser oder Wohnungen}{13}{}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Schutzmaßnahmen}{14}{}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Fazit}{15}{}%
+\contentsline {chapter}{\numberline {5}Fazit}{10}{}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
